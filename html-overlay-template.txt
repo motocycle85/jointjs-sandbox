@@ -1,0 +1,20 @@
+ <div class='diaged-form-overlay' id="theOverlay">
+    <div class='overlay-tab'></div>
+    <div class='overlay-title'>
+        <h2>Add attribute</h2>
+    </div>
+        <div class='overlay-content'>
+            <div class='fieldset'>
+                <p class='field'>
+                    <label>key</label>
+                    <input type="text"></input>
+                </p>
+                <p class='field'>
+                    <label>value</label>
+                    <input type="text"></input>
+                </p>
+                <input type='submit' id='do_login' value='ADD' title='Add' />
+            <div>
+        </div>
+    </div>
+</div>

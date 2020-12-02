@@ -1,0 +1,32 @@
+{
+  "name": "modelerguitestalt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "tsc": "tsc -p ./ -w",
+    "client": "webpack-dev-server --port 3001"
+  },
+  "author": "past@hvl.no",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.2.0",
+    "backbone": "^1.4.0",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/backbone": "^1.4.1",
+    "@types/lodash": "^4.14.149",
+    "@types/underscore": "1.8.20",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "style-loader": "^0.22.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
